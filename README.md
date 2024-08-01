@@ -100,5 +100,11 @@ Toilet cannot be installed yet. But TBomb does still work.
 # Run TBomb:
 
 sudo bash TBomb.sh
+pkg install git
+pkg install python
+git clone https://github.com/QueenArzoo/TBomb.git
+cd TBomb
+chmod +x TBomb.sh
+./TBomb.sh
 
 
